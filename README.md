@@ -1,11 +1,11 @@
-# IMD Weather Prediction System v2.0
+# IMD Weather Prediction System v1.1
 
 > **Operational High-Resolution Machine Learning Meteorological Forecaster**  
 > Direct Multi-Horizon Forecasting (1–20 Days) | Conformal Uncertainty Bands | IMD Extreme Alert Matrix
 
 ---
 
-## 🚀 Key Improvements from v1.0 to v2.0
+## 🚀 Key Improvements from v1.0 to v1.1
 
 | Feature / Metric | v1.0 Legacy Baseline | v2.0 Operational System | Operational Impact |
 |:---|:---|:---|:---|
