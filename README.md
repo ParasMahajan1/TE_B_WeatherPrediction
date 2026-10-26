@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Key Improvements from v1.0 to v1.1
+## Key Improvements from v1.0 to v1.1
 
 | Feature / Metric | v1.0 Legacy Baseline | v2.0 Operational System | Operational Impact |
 |:---|:---|:---|:---|
@@ -20,7 +20,7 @@
 
 ---
 
-## 🏗️ Repository Architecture
+## Repository Architecture
 
 ```
 TE_B_WeatherPrediction/
@@ -54,7 +54,7 @@ TE_B_WeatherPrediction/
 
 ---
 
-## 🏃 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Environment Setup
 ```bash
@@ -80,7 +80,7 @@ streamlit run frontend/app.py
 
 ---
 
-## 🔬 Scientific Methodology & Gate Checks
+## Scientific Methodology & Gate Checks
 
 1. **Strict Temporal Integrity**:
    - Training ($2000–2019$), Validation ($2020–2021$), and Testing ($2022–2024$) splits are strictly maintained without overlapping windows.
