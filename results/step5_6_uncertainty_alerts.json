@@ -1,0 +1,342 @@
+{
+  "Mumbai": {
+    "tmax_coverage_90": [
+      0.9,
+      0.9,
+      0.906,
+      0.893,
+      0.905,
+      0.897,
+      0.904,
+      0.91,
+      0.9,
+      0.916,
+      0.923,
+      0.907,
+      0.918,
+      0.896,
+      0.912,
+      0.911,
+      0.912,
+      0.911,
+      0.912,
+      0.908
+    ],
+    "rain_coverage_90": [
+      0.948,
+      0.939,
+      0.927,
+      0.928,
+      0.925,
+      0.919,
+      0.925,
+      0.931,
+      0.928,
+      0.932,
+      0.935,
+      0.94,
+      0.943,
+      0.934,
+      0.924,
+      0.93,
+      0.924,
+      0.929,
+      0.922,
+      0.929
+    ],
+    "alert_metrics_moderate": {
+      "lead_1": {
+        "hits": 176,
+        "false_alarms": 89,
+        "misses": 27,
+        "correct_negatives": 784,
+        "POD_HitRate": 0.867,
+        "FAR_FalseAlarmRatio": 0.3358,
+        "CSI_ThreatScore": 0.6027,
+        "ETS": 0.5207
+      },
+      "lead_3": {
+        "hits": 170,
+        "false_alarms": 141,
+        "misses": 33,
+        "correct_negatives": 732,
+        "POD_HitRate": 0.8374,
+        "FAR_FalseAlarmRatio": 0.4534,
+        "CSI_ThreatScore": 0.4942,
+        "ETS": 0.3902
+      },
+      "lead_7": {
+        "hits": 171,
+        "false_alarms": 151,
+        "misses": 32,
+        "correct_negatives": 722,
+        "POD_HitRate": 0.8424,
+        "FAR_FalseAlarmRatio": 0.4689,
+        "CSI_ThreatScore": 0.4831,
+        "ETS": 0.376
+      },
+      "lead_10": {
+        "hits": 170,
+        "false_alarms": 142,
+        "misses": 33,
+        "correct_negatives": 731,
+        "POD_HitRate": 0.8374,
+        "FAR_FalseAlarmRatio": 0.4551,
+        "CSI_ThreatScore": 0.4928,
+        "ETS": 0.3884
+      },
+      "lead_14": {
+        "hits": 177,
+        "false_alarms": 154,
+        "misses": 26,
+        "correct_negatives": 719,
+        "POD_HitRate": 0.8719,
+        "FAR_FalseAlarmRatio": 0.4653,
+        "CSI_ThreatScore": 0.4958,
+        "ETS": 0.3889
+      },
+      "lead_20": {
+        "hits": 173,
+        "false_alarms": 150,
+        "misses": 30,
+        "correct_negatives": 723,
+        "POD_HitRate": 0.8522,
+        "FAR_FalseAlarmRatio": 0.4644,
+        "CSI_ThreatScore": 0.4901,
+        "ETS": 0.3837
+      }
+    },
+    "alert_metrics_heavy": {
+      "lead_1": {
+        "hits": 10,
+        "false_alarms": 22,
+        "misses": 24,
+        "correct_negatives": 1020,
+        "POD_HitRate": 0.2941,
+        "FAR_FalseAlarmRatio": 0.6875,
+        "CSI_ThreatScore": 0.1786,
+        "ETS": 0.1635
+      },
+      "lead_3": {
+        "hits": 0,
+        "false_alarms": 1,
+        "misses": 34,
+        "correct_negatives": 1041,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 1.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": -0.0009
+      },
+      "lead_7": {
+        "hits": 0,
+        "false_alarms": 0,
+        "misses": 34,
+        "correct_negatives": 1042,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 0.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": 0.0
+      },
+      "lead_10": {
+        "hits": 1,
+        "false_alarms": 1,
+        "misses": 33,
+        "correct_negatives": 1041,
+        "POD_HitRate": 0.0294,
+        "FAR_FalseAlarmRatio": 0.5,
+        "CSI_ThreatScore": 0.0286,
+        "ETS": 0.0268
+      },
+      "lead_14": {
+        "hits": 0,
+        "false_alarms": 4,
+        "misses": 34,
+        "correct_negatives": 1038,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 1.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": -0.0033
+      },
+      "lead_20": {
+        "hits": 0,
+        "false_alarms": 2,
+        "misses": 34,
+        "correct_negatives": 1040,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 1.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": -0.0018
+      }
+    }
+  },
+  "Delhi": {
+    "tmax_coverage_90": [
+      0.904,
+      0.911,
+      0.894,
+      0.877,
+      0.882,
+      0.895,
+      0.888,
+      0.885,
+      0.894,
+      0.892,
+      0.889,
+      0.882,
+      0.886,
+      0.892,
+      0.87,
+      0.884,
+      0.89,
+      0.889,
+      0.9,
+      0.895
+    ],
+    "rain_coverage_90": [
+      0.934,
+      0.933,
+      0.909,
+      0.931,
+      0.929,
+      0.906,
+      0.928,
+      0.927,
+      0.931,
+      0.932,
+      0.927,
+      0.931,
+      0.928,
+      0.933,
+      0.93,
+      0.93,
+      0.931,
+      0.935,
+      0.938,
+      0.934
+    ],
+    "alert_metrics_moderate": {
+      "lead_1": {
+        "hits": 21,
+        "false_alarms": 18,
+        "misses": 61,
+        "correct_negatives": 976,
+        "POD_HitRate": 0.2561,
+        "FAR_FalseAlarmRatio": 0.4615,
+        "CSI_ThreatScore": 0.21,
+        "ETS": 0.1858
+      },
+      "lead_3": {
+        "hits": 5,
+        "false_alarms": 8,
+        "misses": 77,
+        "correct_negatives": 986,
+        "POD_HitRate": 0.061,
+        "FAR_FalseAlarmRatio": 0.6154,
+        "CSI_ThreatScore": 0.0556,
+        "ETS": 0.045
+      },
+      "lead_7": {
+        "hits": 2,
+        "false_alarms": 8,
+        "misses": 80,
+        "correct_negatives": 986,
+        "POD_HitRate": 0.0244,
+        "FAR_FalseAlarmRatio": 0.8,
+        "CSI_ThreatScore": 0.0222,
+        "ETS": 0.0139
+      },
+      "lead_10": {
+        "hits": 3,
+        "false_alarms": 2,
+        "misses": 77,
+        "correct_negatives": 994,
+        "POD_HitRate": 0.0375,
+        "FAR_FalseAlarmRatio": 0.4,
+        "CSI_ThreatScore": 0.0366,
+        "ETS": 0.0322
+      },
+      "lead_14": {
+        "hits": 0,
+        "false_alarms": 2,
+        "misses": 80,
+        "correct_negatives": 994,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 1.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": -0.0018
+      },
+      "lead_20": {
+        "hits": 2,
+        "false_alarms": 9,
+        "misses": 79,
+        "correct_negatives": 986,
+        "POD_HitRate": 0.0247,
+        "FAR_FalseAlarmRatio": 0.8182,
+        "CSI_ThreatScore": 0.0222,
+        "ETS": 0.0131
+      }
+    },
+    "alert_metrics_heavy": {
+      "lead_1": {
+        "hits": 0,
+        "false_alarms": 0,
+        "misses": 3,
+        "correct_negatives": 1073,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 0.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": 0.0
+      },
+      "lead_3": {
+        "hits": 0,
+        "false_alarms": 0,
+        "misses": 3,
+        "correct_negatives": 1073,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 0.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": 0.0
+      },
+      "lead_7": {
+        "hits": 0,
+        "false_alarms": 0,
+        "misses": 3,
+        "correct_negatives": 1073,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 0.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": 0.0
+      },
+      "lead_10": {
+        "hits": 0,
+        "false_alarms": 0,
+        "misses": 3,
+        "correct_negatives": 1073,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 0.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": 0.0
+      },
+      "lead_14": {
+        "hits": 0,
+        "false_alarms": 0,
+        "misses": 3,
+        "correct_negatives": 1073,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 0.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": 0.0
+      },
+      "lead_20": {
+        "hits": 0,
+        "false_alarms": 0,
+        "misses": 3,
+        "correct_negatives": 1073,
+        "POD_HitRate": 0.0,
+        "FAR_FalseAlarmRatio": 0.0,
+        "CSI_ThreatScore": 0.0,
+        "ETS": 0.0
+      }
+    }
+  }
+}

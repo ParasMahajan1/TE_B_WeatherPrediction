@@ -1,0 +1,42 @@
+# Paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  zarr_store: "data/processed/imd_weather_grid.zarr"
+  results_dir: "results"
+  models_dir: "results/models"
+
+# Spatial Grid Configuration
+grid:
+  target_resolution: 0.25 # degrees (configurable: 0.25 or 1.0)
+  rain_lat_min: 6.5
+  rain_lat_max: 38.5
+  rain_lon_min: 66.5
+  rain_lon_max: 100.0
+  rain_nlat: 129
+  rain_nlon: 135
+  temp_lat_min: 7.5
+  temp_lat_max: 37.5
+  temp_lon_min: 67.5
+  temp_lon_max: 97.5
+  temp_nlat: 31
+  temp_nlon: 31
+
+# Temporal Splitting Configuration
+temporal_split:
+  train_years: [2000, 2019]
+  val_years: [2020, 2021]
+  test_years: [2022, 2024]
+  cv_mode: "expanding_window" # expanding_window or fixed_split
+
+# Forecasting Evaluation Configuration
+forecast:
+  lead_days: 20
+  lookback: 3
+  rainfall_thresholds_mm: [2.5, 15.6, 64.5]
+  quantiles: [0.05, 0.25, 0.50, 0.75, 0.95]
+  alert_thresholds:
+    light: 2.5
+    moderate: 7.6
+    heavy: 64.5
+    very_heavy: 115.6
